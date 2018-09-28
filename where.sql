@@ -7,7 +7,7 @@
 SELECT nome, endereco FROM cliente WHERE sexo = 'M';
 
 /*Continuar para assunto novo no 6:39*/
-
+/*https://www.devmedia.com.br/mysql-tutorial/33309*/
 
 
 
