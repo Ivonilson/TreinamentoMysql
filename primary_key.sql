@@ -1,0 +1,8 @@
+/*CRIANDO A TABELA E DEFININDO A PRIMARY KEY*/
+
+CREATE TABLE IF NOT EXISTS tbl_cidade (
+	cod_cidade varchar(20) NOT NULL,
+	nome varchar(60), 
+	uf char(2),
+	CONSTRAINT pk_cidade PRIMARY KEY (cod_cidade) /*DEFININDO A CHAVE PRIMÁRIA*/
+) ENGINE = INNODB; /*DEFININDO O TIPO DE ENGINE*/
