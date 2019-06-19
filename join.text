@@ -1,0 +1,1 @@
+select C.nomeCliente, I.cpfCliente, C.emailPrinc, I.codImovel, I.logradouro, I.numero, I.complemento, I.bairro, I.cep, I.cidadeUf, I.tipoImov, I.quantDorm, I.tipoTransacao, CR.nomeCorretor, CR.creci, CR.regiaoCreci, I.dataCadastro FROM tbl_imovel AS I INNER JOIN tbl_cliente AS C ON I.cpfCliente = C.cpfCliente INNER JOIN tbl_corretor AS CR ON I.cpfCorretor = CR.cpfCorretor;

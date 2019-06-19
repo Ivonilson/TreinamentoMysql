@@ -1,0 +1,6 @@
+/*ADICIONANDO FOREIGN KEY EM TABELA JÁ CRIADA*/
+
+ALTER TABLE nome-da-tabela ADD CONSTRAINT nome-da-constraint 
+FOREIGN KEY(nome-da-coluna-local) REFERENCES nome-da-tabela-da-fk(coluna-fk);
+
+
